@@ -1,0 +1,17 @@
+{
+    "name": "os-lab-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node main.js",
+        "start-server": "node server.js",
+        "start-client": "cd ./Client && npm run start"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3",
+        "express-static-gzip": "^2.1.5"
+    }
+}
